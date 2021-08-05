@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'sylfaen';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../Fonts/sylfaen');
+}
+@font-face {
+    font-family: 'sylfaen';
+    font-weight: normal;
+    font-style: italic;
+    src: url('../Fonts/sylfaen.ttf');
+}
+@font-face {
+    font-family: 'sylfaen';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../Fonts/sylfaen.ttf');
+}
+@font-face {
+        font-family: 'sylfaen';
+        font-weight: bold;
+        font-style: italic;
+        src: url('../Fonts/sylfaen.ttf');
+}
+
+h1{
+    font-family: 'sylfaen', serif;
+    font-weight: bold;
+    font-style : normal;
+}
+h2{
+    font-family: 'sylfaen', serif;
+    font-weight: bold;
+    font-style : normal;
+}
+h3{
+    font-family: 'sylfaen', serif;
+    font-weight: bold;
+    font-style : normal;
+}
+h4{
+    font-family: 'sylfaen', serif;
+    font-weight: bold;
+    font-style : normal;
+}
+p {
+    font-family : "sylfaen", serif;
+    /*font-size: 1.2em;*/
+    font-weight: normal;
+    font-style : normal;
+    text-decoration : none;
+    font-variant : normal;
+    /*line-height :  1.8;*/
+    text-align : justify;
+    text-indent : 1.5em;
+    margin : 0px 0px 0px 0px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
