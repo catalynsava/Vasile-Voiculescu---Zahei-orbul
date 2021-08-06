@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:language>ro</dc:language>
+    <dc:title>Zahei orbul</dc:title>
+    <dc:creator id="cre">Vasile Voiculescu</dc:creator>
+    <meta property="role" refines="#cre" scheme="marc:relators">aut</meta>
+    <meta property="dcterms:modified">2021-08-06T11:29:47Z</meta>
+    <dc:identifier id="BookId">urn:uuid:7d3597cf-43bf-4d06-8514-8db8a79abe86</dc:identifier>
+    <meta content="1.7.0" name="Sigil version"/>
+    <meta name="cover" content="cover.jpg"/>
+  </metadata>
+  <manifest>
+    <item id="nav.html" href="Text/nav.html" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="page001.html" href="Text/page001.html" media-type="application/xhtml+xml"/>
+    <item id="page002.html" href="Text/page002.html" media-type="application/xhtml+xml"/>
+    <item id="page003.html" href="Text/page003.html" media-type="application/xhtml+xml"/>
+    <item id="page004.html" href="Text/page004.html" media-type="application/xhtml+xml"/>
+    <item id="page005.html" href="Text/page005.html" media-type="application/xhtml+xml"/>
+    <item id="page006.html" href="Text/page006.html" media-type="application/xhtml+xml"/>
+    <item id="page007.html" href="Text/page007.html" media-type="application/xhtml+xml"/>
+    <item id="page008.html" href="Text/page008.html" media-type="application/xhtml+xml"/>
+    <item id="page009.html" href="Text/page009.html" media-type="application/xhtml+xml"/>
+    <item id="page010.html" href="Text/page010.html" media-type="application/xhtml+xml"/>
+    <item id="page011.html" href="Text/page011.html" media-type="application/xhtml+xml"/>
+    <item id="page012.html" href="Text/page012.html" media-type="application/xhtml+xml"/>
+    <item id="page013.html" href="Text/page013.html" media-type="application/xhtml+xml"/>
+    <item id="page014.html" href="Text/page014.html" media-type="application/xhtml+xml"/>
+    <item id="page015.html" href="Text/page015.html" media-type="application/xhtml+xml"/>
+    <item id="page016.html" href="Text/page016.html" media-type="application/xhtml+xml"/>
+    <item id="page017.html" href="Text/page017.html" media-type="application/xhtml+xml"/>
+    <item id="page018.html" href="Text/page018.html" media-type="application/xhtml+xml"/>
+    <item id="page019.html" href="Text/page019.html" media-type="application/xhtml+xml"/>
+    <item id="page020.html" href="Text/page020.html" media-type="application/xhtml+xml"/>
+    <item id="page021.html" href="Text/page021.html" media-type="application/xhtml+xml"/>
+    <item id="page22.html" href="Text/page22.html" media-type="application/xhtml+xml"/>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="coverPage.html" href="Text/coverPage.html" media-type="application/xhtml+xml"/>
+    <item id="titlePage.html" href="Text/titlePage.html" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="CharisSIL-Bold.woff" href="Fonts/CharisSIL-Bold.woff" media-type="font/woff"/>
+    <item id="CharisSIL-BoldItalic.woff" href="Fonts/CharisSIL-BoldItalic.woff" media-type="font/woff"/>
+    <item id="CharisSIL-Italic.woff" href="Fonts/CharisSIL-Italic.woff" media-type="font/woff"/>
+    <item id="CharisSIL-Regular.woff" href="Fonts/CharisSIL-Regular.woff" media-type="font/woff"/>
+    <item id="style.css" href="Styles/style.css" media-type="text/css"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="coverPage.html"/>
+    <itemref idref="titlePage.html"/>
+    <itemref idref="page001.html"/>
+    <itemref idref="page002.html"/>
+    <itemref idref="page003.html"/>
+    <itemref idref="page004.html"/>
+    <itemref idref="page005.html"/>
+    <itemref idref="page006.html"/>
+    <itemref idref="page007.html"/>
+    <itemref idref="page008.html"/>
+    <itemref idref="page009.html"/>
+    <itemref idref="page010.html"/>
+    <itemref idref="page011.html"/>
+    <itemref idref="page012.html"/>
+    <itemref idref="page013.html"/>
+    <itemref idref="page014.html"/>
+    <itemref idref="page015.html"/>
+    <itemref idref="page016.html"/>
+    <itemref idref="page017.html"/>
+    <itemref idref="page018.html"/>
+    <itemref idref="page019.html"/>
+    <itemref idref="page020.html"/>
+    <itemref idref="page021.html"/>
+    <itemref idref="page22.html"/>
+    <itemref idref="nav.html" linear="no"/>
+  </spine>
+</package>

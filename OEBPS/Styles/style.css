@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'CharisSILW';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../Fonts/CharisSIL-Regular.woff');}
+@font-face {
+    font-family: 'CharisSILW';
+    font-weight: normal;
+    font-style: italic;
+    src: url('../Fonts/CharisSIL-Italic.woff');}
+@font-face {
+    font-family: 'CharisSILW';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../Fonts/CharisSIL-Bold.woff');}
+@font-face {
+        font-family: 'CharisSILW';
+        font-weight: bold;
+        font-style: italic;
+        src: url('../Fonts/CharisSIL-BoldItalic.woff');}
+
+h1{
+    font-family: 'CharisSILW', serif;
+    font-weight: bold;
+    font-style : normal;
+	text-align : center;
+}
+h2{
+    font-family: 'CharisSILW', serif;
+    font-weight: bold;
+    font-style : normal;
+	margin-top:25%;
+	margin-bottom:5%;
+	text-align : center;
+
+}
+h3{
+    font-family: 'CharisSILW', serif;
+    font-weight: bold;
+    font-style : normal;
+	text-align : center;
+}
+h4{
+    font-family: 'CharisSILW', serif;
+    font-weight: bold;
+    font-style : normal;
+}
+p {
+    font-family : "CharisSILW", serif;
+    /*font-size: 1.2em;*/
+    font-weight: normal;
+    font-style : normal;
+    text-decoration : none;
+    font-variant : normal;
+    /*line-height :  1.8;*/
+    text-align : justify;
+    text-indent : 1.5em;
+    margin : 0px 0px 0px 0px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+.paragraf1::first-letter {
+    font-size: 300%;
+}
