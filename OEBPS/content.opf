@@ -5,7 +5,7 @@
     <dc:title>Zahei orbul</dc:title>
     <dc:creator id="cre">Vasile Voiculescu</dc:creator>
     <meta property="role" refines="#cre" scheme="marc:relators">aut</meta>
-    <meta property="dcterms:modified">2021-08-06T11:29:47Z</meta>
+    <meta property="dcterms:modified">2021-08-06T22:46:52Z</meta>
     <dc:identifier id="BookId">urn:uuid:7d3597cf-43bf-4d06-8514-8db8a79abe86</dc:identifier>
     <meta content="1.7.0" name="Sigil version"/>
     <meta name="cover" content="cover.jpg"/>
