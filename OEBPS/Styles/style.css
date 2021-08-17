@@ -17,7 +17,8 @@
         font-family: 'CharisSILW';
         font-weight: bold;
         font-style: italic;
-        src: url('../Fonts/CharisSIL-BoldItalic.woff');}
+        src: url('../Fonts/CharisSIL-BoldItalic.woff');
+    }
 
 h1{
     font-family: 'CharisSILW', serif;
@@ -26,12 +27,12 @@ h1{
 	text-align : center;
 }
 h2{
-    font-family: 'CharisSILW', serif;
-    font-weight: bold;
-    font-style : normal;
-	margin-top:25%;
-	margin-bottom:5%;
-	text-align : center;
+    border: 0;
+    height: 0;
+    text-align: right;
+    margin-bottom: 5%;
+    /*border-top: 1px solid rgba(0, 0, 0, 0.1);*/
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
 
 }
 h3{
@@ -64,3 +65,14 @@ p {
 .paragraf1::first-letter {
     font-size: 300%;
 }
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    margin-top: 20%;
+  }
