@@ -5,13 +5,19 @@
     <dc:title>Zahei orbul</dc:title>
     <dc:creator id="cre">Vasile Voiculescu</dc:creator>
     <meta property="role" refines="#cre" scheme="marc:relators">aut</meta>
-    <meta property="dcterms:modified">2021-08-06T22:46:52Z</meta>
-    <dc:identifier id="BookId">urn:uuid:7d3597cf-43bf-4d06-8514-8db8a79abe86</dc:identifier>
+    <meta property="dcterms:modified">2021-08-19T09:58:44Z</meta>
+    <dc:identifier id="BookId">urn:uuid:2ea244cf-6a4e-4edd-97a0-2a45daf8c386</dc:identifier>
     <meta content="1.7.0" name="Sigil version"/>
-    <meta name="cover" content="cover.jpg"/>
   </metadata>
   <manifest>
-    <item id="nav.html" href="Text/nav.html" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="sgc-nav.css" href="Styles/sgc-nav.css" media-type="text/css"/>
+    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="CharisSIL-Bold.woff" href="Fonts/CharisSIL-Bold.woff" media-type="font/woff"/>
+    <item id="CharisSIL-BoldItalic.woff" href="Fonts/CharisSIL-BoldItalic.woff" media-type="font/woff"/>
+    <item id="CharisSIL-Italic.woff" href="Fonts/CharisSIL-Italic.woff" media-type="font/woff"/>
+    <item id="CharisSIL-Regular.woff" href="Fonts/CharisSIL-Regular.woff" media-type="font/woff"/>
+    <item id="style.css" href="Styles/style.css" media-type="text/css"/>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/>
     <item id="page001.html" href="Text/page001.html" media-type="application/xhtml+xml"/>
     <item id="page002.html" href="Text/page002.html" media-type="application/xhtml+xml"/>
     <item id="page003.html" href="Text/page003.html" media-type="application/xhtml+xml"/>
@@ -34,17 +40,11 @@
     <item id="page020.html" href="Text/page020.html" media-type="application/xhtml+xml"/>
     <item id="page021.html" href="Text/page021.html" media-type="application/xhtml+xml"/>
     <item id="page22.html" href="Text/page22.html" media-type="application/xhtml+xml"/>
-    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
     <item id="coverPage.html" href="Text/coverPage.html" media-type="application/xhtml+xml"/>
     <item id="titlePage.html" href="Text/titlePage.html" media-type="application/xhtml+xml"/>
-    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
-    <item id="CharisSIL-Bold.woff" href="Fonts/CharisSIL-Bold.woff" media-type="font/woff"/>
-    <item id="CharisSIL-BoldItalic.woff" href="Fonts/CharisSIL-BoldItalic.woff" media-type="font/woff"/>
-    <item id="CharisSIL-Italic.woff" href="Fonts/CharisSIL-Italic.woff" media-type="font/woff"/>
-    <item id="CharisSIL-Regular.woff" href="Fonts/CharisSIL-Regular.woff" media-type="font/woff"/>
-    <item id="style.css" href="Styles/style.css" media-type="text/css"/>
+    <item id="note.html" href="Text/note.html" media-type="application/xhtml+xml"/>
   </manifest>
-  <spine toc="ncx">
+  <spine>
     <itemref idref="coverPage.html"/>
     <itemref idref="titlePage.html"/>
     <itemref idref="page001.html"/>
@@ -69,6 +69,7 @@
     <itemref idref="page020.html"/>
     <itemref idref="page021.html"/>
     <itemref idref="page22.html"/>
-    <itemref idref="nav.html" linear="no"/>
+    <itemref idref="note.html"/>
+    <itemref idref="nav.xhtml" linear="no"/>
   </spine>
 </package>
