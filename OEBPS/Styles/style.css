@@ -62,7 +62,7 @@ p {
     padding-right: 0;
     padding-top: 0;
 }
-.paragraf1::first-letter {
+.paragraf1:first-letter {
     font-size: 300%;
 }
 
